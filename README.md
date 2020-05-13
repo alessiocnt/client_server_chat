@@ -1,29 +1,22 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Svolgimento traccia 1 per esame Programmazione di Reti a.a. 2019/20
 
-### What is this repository for? ###
+### Setup ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+La configurazione prevede che vengano lanciati nell'ordine i seguenti componenti:
 
-### How do I get set up? ###
+* Server
+* Router 
+* Client 
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+(Client 1-2-3 sono collegati al Router1, mentre Client 4-5-6 al Router2)
 
-### Contribution guidelines ###
+### Materiale ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* src
+* eseguibili
+* relazione.pdf
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Referenze ###
+Alessio Conti
