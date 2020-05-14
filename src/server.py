@@ -25,7 +25,7 @@ clients = {}    # Dictionary per per tener traccia delle connessioni dirette al 
 
 def attendi_posta(conn):    # Gestisce l'arrivo di nuovi messaggi
     while True:
-        received_message = conn.recv(1024)  # Metto in ascolto
+        received_message = conn.recv(BUFSIZ)  # Metto in ascolto
         received_message =  received_message.decode("utf-8")
         # Salvo la connessione, se già presente andrà a sovrascrivere
         clients[received_message[0:17]] = conn
